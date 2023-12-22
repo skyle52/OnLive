@@ -2,8 +2,8 @@
 
 cat <<EOF >/etc/.mysqld_exporter.cnf
 [client]
-user=exporter
-password=qorentks$5
+user=monitor
+password=Vietnam@123
 EOF
 
 chown node_exporter:node_exporter /etc/.mysqld_exporter.cnf
